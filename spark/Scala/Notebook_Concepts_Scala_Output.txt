@@ -1,0 +1,134 @@
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+------------------FILE----------------------
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+------------------FILTERED FILE----------------------
+size of file: 19
+After filter count: 10
+Max from Both: 19
+------------------COUNT ACTION----------------------
+13
+(those!,1)
+(Unless,1)
+(are,1)
+(Complex,1)
+(one--,1)
+(is,10)
+(There,1)
+(enough,1)
+(refuse,1)
+(Dutch.,1)
+(never,2)
+(preferably,1)
+(--,1)
+(Readability,1)
+(one,2)
+(only,1)
+(Now,1)
+(complex.,1)
+(first,1)
+(honking,1)
+(easy,1)
+(now.,1)
+(better,8)
+(Explicit,1)
+(often,1)
+(Simple,1)
+(never.,1)
+(implementation,2)
+(*right*,1)
+(Namespaces,1)
+(Sparse,1)
+(Although,3)
+(counts.,1)
+(unless,1)
+(silently.,1)
+(it,1)
+(than,8)
+(ambiguity,,1)
+(it.,1)
+(complicated.,1)
+(ugly.,1)
+(at,1)
+(let's,1)
+(explain,,2)
+(idea.,2)
+(Beautiful,1)
+(beats,1)
+(In,1)
+(explicitly,1)
+(good,1)
+(should,2)
+(great,1)
+(face,1)
+(special,1)
+(cases,1)
+(aren't,1)
+(dense.,1)
+(way,2)
+(may,2)
+(the,5)
+(Flat,1)
+(not,1)
+(guess.,1)
+(rules.,1)
+(hard,1)
+(you're,1)
+(that,1)
+(a,2)
+(nested.,1)
+(be,3)
+(do,2)
+(bad,1)
+(to,5)
+(Errors,1)
+(idea,1)
+(more,1)
+(--obvious,1)
+(of,2)
+(temptation,1)
+(pass,1)
+(it's,1)
+(purity.,1)
+(Special,1)
+(If,2)
+(implicit.,1)
+(obvious,1)
+(break,1)
+(and,1)
+(practicality,1)
+(silenced.,1)
+import java.lang.Math
+file: org.apache.spark.rdd.RDD[String] = FileStore/tables/Python_Poem_txt-3e0f9.txt MapPartitionsRDD[167] at textFile at command-176162941686287:5
+file_filter: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[168] at filter at command-176162941686287:9
+count: Long = 10
+size: Long = 19
+map_file: Int = 13
+word_count: org.apache.spark.rdd.RDD[(String, Int)] = ShuffledRDD[173] at reduceByKey at command-176162941686287:22
+max_freq: (String, Int) = (is,10)
