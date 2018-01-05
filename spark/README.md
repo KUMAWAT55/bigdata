@@ -1,5 +1,6 @@
 ### Spark interactive content
--->To run one of the Java or Scala sample programs,
+-->To run one of the Java or Scala sample programs:
+
 	use "bin/run-example <class> <params>"
 in the top-level Spark directory. (Behind the scenes, this invokes the more general spark-submit script for launching applications)
 	./bin/run-example SparkPi 10  // 10 is Number of Partitions
