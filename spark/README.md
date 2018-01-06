@@ -31,8 +31,7 @@ and deploy modes that Spark supports:
   ... # other options
   <application-jar> \
   [application-arguments]
-  
-  
+  --------------------------------------------------------------------------------------------------------------------------
 --class: The entry point for your application (e.g. org.apache.spark.examples.SparkPi)
 --master: The master URL for the cluster (e.g. spark://23.195.26.187:7077)
 --deploy-mode: Whether to deploy your driver on the worker nodes (cluster) or locally as an external client (client) (default: client) †
