@@ -32,7 +32,7 @@ and deploy modes that Spark supports:
   <application-jar> \
   [application-arguments]
 
---class: The entry point for your application (e.g. org.apache.spark.examples.SparkPi)
+**--class:** The entry point for your application (e.g. org.apache.spark.examples.SparkPi)
 
 --master: The master URL for the cluster (e.g. spark://23.195.26.187:7077)
 
