@@ -39,7 +39,9 @@ and deploy modes that Spark supports:
 --deploy-mode: Whether to deploy your driver on the worker nodes (cluster) or locally as an external client (client) (default: client) †
 
 --conf: Arbitrary Spark configuration property in key=value format. For values that contain spaces wrap “key=value” in quotes (as shown).
+
 application-jar: Path to a bundled jar including your application and all dependencies. The URL must be globally visible inside of your cluster, for instance, an hdfs:// path or a file:// path that is present on all nodes.
+
 application-arguments: Arguments passed to the main method of your main class, if any   
 
 #### Run on a Spark standalone cluster in cluster deploy mode with supervise
