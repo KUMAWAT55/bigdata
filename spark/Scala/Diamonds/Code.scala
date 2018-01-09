@@ -7,7 +7,7 @@ diamonds=spark.read.format("com.databricks.spark.csv")
 	println("Count:" +diamonds.count())
 //groupBy cut and color and avg(price) of all
 	val df1 = diamonds.groupBy("cut", "color").avg("price")
-// save the file for spar sqlContext
+// save the file for spark sqlContext object
 	df1.write.format("csv").save("FileStore/tables/df1.csv")
 
 	println(df1.count())
