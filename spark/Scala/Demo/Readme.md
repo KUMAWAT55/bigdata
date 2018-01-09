@@ -1,10 +1,10 @@
 ##### Basic dataset for basics of scala and spark
 
 	--> [DATASETS]:INPUT FILES
-			**Temp.csv** (EMP_ID,NAME,AGE,SALARY)
-			**Temp1.csv**(AGE,DESIGNATION)
+			**temp.csv** (EMP_ID,NAME,AGE,SALARY)
+			**temp1.csv**(AGE,DESIGNATION)
 	-->SOURCE FILE:
-			**Sourcs.scala**
+			**Source.scala**
 	-->OUTPUT FILE:
 			**Output.csv**
 
