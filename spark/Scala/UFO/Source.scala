@@ -3,6 +3,7 @@ val InputFile=spark.read.format("com.databricks.spark.csv")
   .option("inferschema","true")
   .load("/FileStore/tables/complete.csv")
 println(InputFile.count())
+//Creating Table view for data file as table 
   InputFile.createOrReplaceTempView("UFO")
  val max_country=sqlContext.sql("""select country, cntCountry from (
                                             select country, count(*) as cntCountry, max(count(*)) over () as maxcnt 
