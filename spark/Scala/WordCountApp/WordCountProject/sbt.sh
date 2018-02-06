@@ -1,6 +1,6 @@
 mkdir lib project target
 mkdir -p src/{main,test}/{java,resource,scala}
-echo 'name := "First Project"
+echo 'name := "Word Count"
 version := "1.0"
 scalaVersion := "2.10.4"
 
