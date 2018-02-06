@@ -1,6 +1,6 @@
 ### Word Count Standalone Application
--->Run script file "sbt.sh" to create 'Simple Building Tool Structure:
+(1) Run script file "sbt.sh" to create 'Simple Building Tool Structure:
       
       sh sbt.sh
-
+The interactive build tool. Use Scala to define your tasks. Then run them in parallel from the shell. 
 
