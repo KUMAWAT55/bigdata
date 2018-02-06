@@ -1,1 +1,2 @@
+### Word Count Standalone Application
 
