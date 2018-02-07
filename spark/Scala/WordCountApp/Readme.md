@@ -10,21 +10,21 @@
 
 |-- src
 
-|   |-- main
+|       |-- main
 
-|   |   |-- java
+|       |       |-- java
 
-|   |   |-- resources
+|       |       |-- resources
 
-|   |   |-- scala
+|       |       |-- scala
 
-|   |-- test
+|       |-- test
 
-|       |-- java
+|               |-- java
 
-|       |-- resources
+|               |-- resources
 
-|       |-- scala
+|               |-- scala
 
 |-- target
       
