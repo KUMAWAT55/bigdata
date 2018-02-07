@@ -34,6 +34,7 @@
 The interactive build tool. Use Scala to define your tasks. Then run them in parallel from the shell. 
 
 (2) Scala Source File location will be:
+
       /src/main/scala/<FILE>  example: (/src/main/scala/exec.scala)
 
 
