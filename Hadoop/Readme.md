@@ -12,3 +12,5 @@ The SSH protocol (also referred to as Secure Shell) is a method for secure remot
           
           $ sudo apt-get install pdsh
 pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a single remote host, pdsh can run multiple remote commands in parallel
+
+###### Configurations:
