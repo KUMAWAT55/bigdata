@@ -3,17 +3,29 @@
 ### PROJECT STRUCTURE(Word Count)
 
 |-- build.sbt
+
 |-- lib
+
 |-- project
+
 |-- src
+
 |   |-- main
+
 |   |   |-- java
+
 |   |   |-- resources
+
 |   |   |-- scala
+
 |   |-- test
+
 |       |-- java
+
 |       |-- resources
+
 |       |-- scala
+
 |-- target
       
       sh sbt.sh
