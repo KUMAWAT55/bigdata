@@ -2,6 +2,8 @@
 (1) Run script file "sbt.sh" to create 'Simple Building Tool Structure:
 ### PROJECT STRUCTURE(Word Count)
 
+.
+
 |-- build.sbt
 
 |-- lib
