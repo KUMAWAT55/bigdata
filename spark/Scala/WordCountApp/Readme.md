@@ -1,4 +1,4 @@
-### Word Count Standalone Application
+### Word Count Standalone Application(Spark Submit)
 (1) Run script file "sbt.sh" to create 'Simple Building Tool Structure:
 ### PROJECT STRUCTURE(Word Count)
 
@@ -41,5 +41,7 @@ The interactive build tool. Use Scala to define your tasks. Then run them in par
 
       sbt package
 
-
+(4)Submitting the application on cluster/local or more modes:
+      
+      spark submit --class "WordCount" --master local[4] target/scala-2.10/wordcountapp_2.10-1.0.jar
          
