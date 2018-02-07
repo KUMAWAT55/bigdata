@@ -36,6 +36,10 @@ The interactive build tool. Use Scala to define your tasks. Then run them in par
 (2) Scala Source File location will be:
 
       /src/main/scala/<FILE>  example: (/src/main/scala/exec.scala)
+      
+(3) Packaging of Project and building Jar:
+
+      sbt package
 
 
          
