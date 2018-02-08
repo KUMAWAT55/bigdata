@@ -21,8 +21,7 @@ The SSH protocol (also referred to as Secure Shell) is a method for secure remot
 pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a single remote host, pdsh can run multiple remote commands in parallel
 
 ###### Configurations:
-###### set to the root of your Java installation in bashrc file(command : $ vim ~/.bashrc)
-Write:      
+###### For setting up PATH and JAVA_HOME variables, add the following commands to file(~/.bashrc) .
 
           export JAVA_HOME=/usr/local/jdk-9.0.4
           export PATH=$PATH:$JAVA_HOME/bin 
