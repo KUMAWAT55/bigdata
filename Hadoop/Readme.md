@@ -25,3 +25,13 @@ pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a
 
           export JAVA_HOME=/usr/local/jdk-9.0.4
           export PATH=$PATH:$JAVA_HOME/bin 
+###### You can set Hadoop environment variables by appending the following commands to (~/.bashrc) file. 
+
+          export HADOOP_HOME=/usr/local/hadoop 
+          export HADOOP_MAPRED_HOME=$HADOOP_HOME 
+          export HADOOP_COMMON_HOME=$HADOOP_HOME 
+          export HADOOP_HDFS_HOME=$HADOOP_HOME 
+          export YARN_HOME=$HADOOP_HOME 
+          export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native 
+          export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin 
+          export HADOOP_INSTALL=$HADOOP_HOME 
