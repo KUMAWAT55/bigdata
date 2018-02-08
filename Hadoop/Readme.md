@@ -23,5 +23,6 @@ pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a
 ###### Configurations:
 ###### set to the root of your Java installation in bashrc file(command : $ vim ~/.bashrc)
 Write:      
+
           export JAVA_HOME=/usr/local/jdk-9.0.4
           export PATH=$PATH:$JAVA_HOME/bin 
