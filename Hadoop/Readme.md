@@ -35,3 +35,5 @@ pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a
           export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native 
           export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin 
           export HADOOP_INSTALL=$HADOOP_HOME 
+###### Now apply all the changes into the current running system.
+          $ source ~/.bashrc
