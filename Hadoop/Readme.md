@@ -63,4 +63,9 @@ This will display the usage documentation for the hadoop script.
                                <value>1</value>
                     </property>
           </configuration>
-#####  Setup passphraseless ssh         
+#####  Setup passphraseless ssh      
+If you cannot ssh to localhost without a passphrase, execute the following commands:          
+           
+           $ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+           $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+           $ chmod 0600 ~/.ssh/authorized_keys
