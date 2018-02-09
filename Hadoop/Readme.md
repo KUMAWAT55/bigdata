@@ -21,11 +21,11 @@ The SSH protocol (also referred to as Secure Shell) is a method for secure remot
 pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a single remote host, pdsh can run multiple remote commands in parallel
 
 ###### Configurations:
-###### For setting up PATH and JAVA_HOME variables, add the following commands to file(~/.bashrc) .
+###### (1) For setting up PATH and JAVA_HOME variables, add the following commands to file(~/.bashrc) .
 
           export JAVA_HOME=/usr/local/jdk-9.0.4
           export PATH=$PATH:$JAVA_HOME/bin 
-###### You can set Hadoop environment variables by appending the following commands to (~/.bashrc) file. 
+###### (2) You can set Hadoop environment variables by appending the following commands to (~/.bashrc) file. 
 
           export HADOOP_HOME=/usr/local/hadoop 
           export HADOOP_MAPRED_HOME=$HADOOP_HOME 
@@ -35,11 +35,11 @@ pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a
           export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native 
           export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin 
           export HADOOP_INSTALL=$HADOOP_HOME 
-###### Now apply all the changes into the current running system.
+###### (3) Now apply all the changes into the current running system.
           $ source ~/.bashrc
-###### In the distribution, edit the file ((etc/hadoop/hadoop-env.sh)) to define some parameters as follows:
+###### (4) In the distribution, edit the file ((etc/hadoop/hadoop-env.sh)) to define some parameters as follows:
 ###### set to the root of your Java installation
-          export JAVA_HOME=/usr/java/latest
+          export JAVA_HOME=/usr/local/jdk-9.0.4
 
 Try the following command:
          
