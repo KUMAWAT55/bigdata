@@ -45,3 +45,4 @@ Try the following command:
          
          $ hadoop
 This will display the usage documentation for the hadoop script.
+### Pseudo-Distributed Operation
