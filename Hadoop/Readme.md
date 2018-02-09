@@ -54,4 +54,8 @@ This will display the usage documentation for the hadoop script.
                                <value>hdfs://localhost:9000</value>
                     </property>
           </configuration>
+          
+###### (2) edit the file ((/usr/local/hadoop/etc/hadoop/hdfs-site.xml)):
+
+
          
