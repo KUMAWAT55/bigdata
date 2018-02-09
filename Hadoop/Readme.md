@@ -49,9 +49,9 @@ This will display the usage documentation for the hadoop script.
 ###### (1) edit the file ((/usr/local/hadoop/etc/hadoop/core-site.xml)):
 
           <configuration>
-          <property>
-          <name>fs.defaultFS</name>
-          <value>hdfs://localhost:9000</value>
-          </property>
+                    <property>
+                               <name>fs.defaultFS</name>
+                               <value>hdfs://localhost:9000</value>
+                    </property>
           </configuration>
          
