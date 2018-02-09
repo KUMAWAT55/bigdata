@@ -44,3 +44,4 @@ pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a
 Try the following command:
          
          $ hadoop
+This will display the usage documentation for the hadoop script.
