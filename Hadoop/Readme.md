@@ -40,3 +40,7 @@ pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a
 ###### In the distribution, edit the file ((etc/hadoop/hadoop-env.sh)) to define some parameters as follows:
 ###### set to the root of your Java installation
           export JAVA_HOME=/usr/java/latest
+
+Try the following command:
+         
+         $ hadoop
