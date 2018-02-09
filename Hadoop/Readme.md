@@ -57,5 +57,10 @@ This will display the usage documentation for the hadoop script.
           
 ###### (2) edit the file ((/usr/local/hadoop/etc/hadoop/hdfs-site.xml)):
 
-
+          <configuration>
+                     <property>
+                              <name>dfs.replication</name>
+                               <value>1</value>
+                    </property>
+          </configuration>
          
