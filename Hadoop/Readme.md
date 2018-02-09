@@ -37,3 +37,6 @@ pdsh is a variant of the rsh(1) command. Unlike rsh(1), which runs commands on a
           export HADOOP_INSTALL=$HADOOP_HOME 
 ###### Now apply all the changes into the current running system.
           $ source ~/.bashrc
+###### In the distribution, edit the file ((etc/hadoop/hadoop-env.sh)) to define some parameters as follows:
+###### set to the root of your Java installation
+          export JAVA_HOME=/usr/java/latest
