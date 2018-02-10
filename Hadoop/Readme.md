@@ -70,3 +70,4 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
            $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
            $ chmod 0600 ~/.ssh/authorized_keys
 ### Execution
+###### Format the filesystem:
