@@ -68,10 +68,9 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
            
            $ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
            $ cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
-           $ chmod 0600 ~/.ssh/authorized_keys
+           $ chmod 0600 ~/.ssh/authorized_keys
 
 ### Execution
 
 ###### (1) Format the filesystem:
-
-           $bin/hdfs namenode -format
+           $ bin/hdfs namenode -format
