@@ -71,3 +71,4 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
            $ chmod 0600 ~/.ssh/authorized_keys
 ### Execution
 ###### (1) Format the filesystem:
+           $bin/hdfs namenode -format
