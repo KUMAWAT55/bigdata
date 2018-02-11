@@ -76,3 +76,4 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
            $ bin/hdfs namenode -format
            
 ###### (2) start NameNode daemon and DataNode daemon:
+           $ sbin/start-dfs.sh
