@@ -81,3 +81,5 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
 http://localhost:9870/
 
 ###### (4) Make the HDFS directories required to execute MapReduce jobs:
+           $ bin/hdfs dfs -mkdir /user
+           $ bin/hdfs dfs -mkdir /user/<username>
