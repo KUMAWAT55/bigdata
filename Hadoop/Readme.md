@@ -74,3 +74,5 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
 
 ###### (1) Format the filesystem:
            $ bin/hdfs namenode -format
+           
+###### (2) start NameNode daemon and DataNode daemon:
