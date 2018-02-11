@@ -79,3 +79,5 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
            $ sbin/start-dfs.sh
 ###### (3) Browse the web interface for the NameNode; by default it is available at:
 http://localhost:9870/
+
+###### (4) Make the HDFS directories required to execute MapReduce jobs:
