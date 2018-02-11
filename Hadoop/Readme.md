@@ -78,4 +78,4 @@ If you cannot ssh to localhost without a passphrase, execute the following comma
 ###### (2) start NameNode daemon and DataNode daemon:
            $ sbin/start-dfs.sh
 ###### (3) Browse the web interface for the NameNode; by default it is available at:
-           NameNode - http://localhost:9870/
+http://localhost:9870/
