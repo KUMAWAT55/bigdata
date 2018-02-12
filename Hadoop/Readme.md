@@ -82,4 +82,4 @@ http://localhost:9870/
 
 ###### (4) Make the HDFS directories required to execute MapReduce jobs:
            $ hdfs dfs -mkdir /user
-           $ bin/hdfs dfs -mkdir /user/<username>
+           $ hdfs dfs -mkdir /user/<username>
